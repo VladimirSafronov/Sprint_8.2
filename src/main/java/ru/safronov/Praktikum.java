@@ -1,8 +1,10 @@
 package ru.safronov;
 
-public class Main {
+public class Praktikum {
 
   public static void main(String[] args) {
-    System.out.println("Hello world!");
+    String name = "Panteley Sochnikov";
+    Account account = new Account(name);
+    account.checkNameToEmboss();
   }
 }
